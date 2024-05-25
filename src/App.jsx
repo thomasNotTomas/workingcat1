@@ -1,3 +1,6 @@
+import Windows95 from "./components/Windows95"
+
+
 function App() {
 
   return (
@@ -8,13 +11,7 @@ function App() {
         <section className="flex w-full">
           <img src="/workingCat.png" alt="" />
           <div className=" w-full flex items-center justify-center">
-            <div className="windows-95 w-fit h-fit">
-              <div className="windows-95-title flex min-w-20">
-              <h1 className="">BUY WORKING CAT!!</h1>
-              </div>
-              <h2 className="mt-2">0x2cF14b7d4a77646F7Bb91EAe0f7C2d295c769fd3</h2>
-              <div className="windows-95-button mt-2">COPY!</div>
-            </div>
+            <Windows95 title={'BUY WORKING CAT!!'} subtitle={'0x2cF14b7d4a77646F7Bb91EAe0f7C2d295c769fd3'}></Windows95>
           </div>
         </section>
       </div>
