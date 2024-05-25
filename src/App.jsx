@@ -7,14 +7,14 @@ function App() {
   return (
     <>
       <div className="flex flex-col items-center
-                      bg-[url('/background.jpg')] h-[1300px] bg-cover">
+                      bg-[url('/background.jpg')] h-fit bg-cover">
         <img src="/logo.png" alt="" />
         <section className="flex w-full max-w-[1500px]">
           <div className="flex flex-col w-full items-center justify-center lg:flex-row">
           <img src="/workingCat.png" alt="" className="hidden 2xl:block" />
           <div className=" w-full flex justify-center">
             <div className="w-96 windows-95">
-              <p className="windows-95-title">A cute fluffy guy that’s always working. Such a workaholic, he won’t stop working! Always on his laptop, doing important biz… Work work work, he can’t think about anything else.</p>
+              <p className="windows-95-title text-xl">A cute fluffy guy that’s always working. Such a workaholic, he won’t stop working! Always on his laptop, doing important biz… Work work work, he can’t think about anything else.</p>
             </div>
           </div>
           <img src="/workingCat.png" alt="" className="transform -scale-x-100" />
@@ -28,6 +28,13 @@ function App() {
         <div className="">
         <Windows95 title={'BUY WORKING CAT!!'} subtitle={'0x2cF14b7d4a77646F7Bb91EAe0f7C2d295c769fd3'}></Windows95>
         </div>
+        </section>
+        <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-16">
+          <img className="w-80 h-auto mb-4 lg:mr-4" src="/memes/apple.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/bankchina.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/beach.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/bed.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/campbell.jpg" alt="" />
         </section>
       </div>
     </>
