@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+
+    font-family: 'windows95';
+    src: url('fonts/w95fa.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.windows-95 {
+
+    background-color: silver;
+    border-color: #fff #393939 #393939 #fff;
+    border-style: solid;
+    border-width: 2px;
+    padding: 3px 3px 5px;
+    font-family: 'windows95';
+
+}
+
+.windows-95-title {
+
+    color: #fff;
+    background-color: #000181;
+    padding: 2px 0 2px 5px;
+
+}
+
+.windows-95-button {
+
+    background-color: silver;
+    border-color: #fff #393939 #393939 #fff;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    padding: 3px 3px 5px;
+    text-align: center;
+    width: fit-content;
+    padding: 5px 20px;
+    font-family: 'windows95';
+
+}
