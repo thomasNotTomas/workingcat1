@@ -9,6 +9,7 @@ function App() {
       <div className="flex flex-col items-center
                       bg-[url('/background.jpg')] h-fit bg-cover">
         <img src="/logo.png" alt="" />
+        <h1 className="windows-95 text-2xl font-bold w-fit">CA: 0x2cF14b7d4a77646F7Bb91EAe0f7C2d295c769fd3</h1>
         <section className="flex w-full max-w-[1500px]">
           <div className="flex flex-col w-full items-center justify-center lg:flex-row">
           <img src="/workingCat.png" alt="" className="hidden 2xl:block" />
@@ -29,7 +30,7 @@ function App() {
         <Windows95 title={'BUY WORKING CAT!!'} subtitle={'0x2cF14b7d4a77646F7Bb91EAe0f7C2d295c769fd3'}></Windows95>
         </div>
         </section>
-        <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-16">
+        <section className="place-items-center grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
           <img className="w-80 h-auto mb-4 lg:mr-4" src="/memes/apple.jpg" alt="" />
           <img className="w-80 h-auto mb-4" src="/memes/bankchina.jpg" alt="" />
           <img className="w-80 h-auto mb-4" src="/memes/beach.jpg" alt="" />
