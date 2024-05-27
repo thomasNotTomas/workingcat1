@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="flex flex-col items-center
                       bg-[url('/skybackground.png')] h-full bg-fixed pb-24">
-        <section className="w-full  my-4 flex justify-center space-x-12">
+        <section className="w-full  my-4 flex justify-center space-x-6 md:space-x-12">
           <a target="_blank" href="https://x.com/the_working_cat">
           <img className="w-20" src="/xicon.png" alt="" />
           </a>
