@@ -11,6 +11,12 @@
 
 }
 
+html {
+
+  background-color: aquamarine;
+
+}
+
 @keyframes scrollRight {
     0% {
       transform: translateX(-100%);

@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="flex flex-col items-center
-                      bg-[url('/background.jpg')] h-fit bg-cover">
+                      bg-[url('/skybackground.png')] h-full bg-fixed pb-24">
         <Slider></Slider>
         <img src="/logo.png" alt="" />
         <h1 className="hidden md:block windows-95 text-2xl font-bold w-fit">CA: 0x2cF14b7d4a77646F7Bb91EAe0f7C2d295c769fd3</h1>
@@ -38,8 +38,29 @@ function App() {
           <img className="w-80 h-auto mb-4" src="/memes/bankchina.jpg" alt="" />
           <img className="w-80 h-auto mb-4" src="/memes/beach.jpg" alt="" />
           <img className="w-80 h-auto mb-4" src="/memes/bed.jpg" alt="" />
-          <img className="w-80 h-auto mb-4" src="/memes/campbell.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/catnip.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/chinese.png" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/cornerwcat.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/crook.png" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/diamond.png" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/ezmoney.png" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/greener.png" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/haha1.png" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/japan.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/kfc.png" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/lambo.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/maga.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/minecraft.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/musk1.png" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/musk2.png" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/petrochina.jpg" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/pumpit.png" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/raiden.png" alt="" />
+          <img className="w-80 h-auto mb-4" src="/memes/untzcat.png" alt="" />
+          
+          <img className="w-80 h-auto mb-4" src="/memes/raydenwcat.png" alt="" />
         </section>
+        <Slider></Slider>
       </div>
     </>
   )
