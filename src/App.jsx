@@ -9,7 +9,17 @@ function App() {
     <>
       <div className="flex flex-col items-center
                       bg-[url('/skybackground.png')] h-full bg-fixed pb-24">
-        <Slider></Slider>
+        <section className="w-full  my-4 flex justify-center space-x-12">
+          <a target="_blank" href="https://x.com/the_working_cat">
+          <img className="w-20" src="/xicon.png" alt="" />
+          </a>
+          <a target="_blank" href="https://t.me/WCATPublic">
+          <img className="w-20" src="/tgicon.png" alt="" />
+          </a>
+          <a target="_blank" href="">
+          <img className="w-20" src="/dxsicon.png" alt="" />
+          </a>
+        </section>
         <img src="/logo.png" alt="" />
         <h1 className="hidden md:block windows-95 text-2xl font-bold w-fit">CA: 0x2cF14b7d4a77646F7Bb91EAe0f7C2d295c769fd3</h1>
         <section className="flex w-full max-w-[1500px]">
@@ -61,6 +71,9 @@ function App() {
           <img className="w-80 h-auto mb-4" src="/memes/raydenwcat.png" alt="" />
         </section>
         <Slider></Slider>
+        <section className="w-full flex justify-center items-center">
+              <img className="w-96" src="/tag.png" alt="" />
+        </section>
       </div>
     </>
   )
