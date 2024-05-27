@@ -11,6 +11,26 @@
 
 }
 
+@keyframes scrollRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .slider-content {
+    white-space: nowrap;
+    display: inline-block;
+    animation: scrollRight 90s linear infinite;
+  }
+
+  .slider-font {
+
+    font-family: 'windows95';
+  }
+
 .windows-95 {
 
     background-color: silver;
